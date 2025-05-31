@@ -22,11 +22,7 @@ if not exist %CD%\files\ArrowCursor.png (
 )
 if not exist %CD%\files\ArrowFarCursor.png (
     set safety=1
-)
-if %safety%==1 (
-    echo ERROR MISSING FILES!
-    timeout /t 5 /nobreak >NUL
-    exit
+
 )
 echo GYATTDAEMON MACRO MADE BY LEADER OF LPI FART ARMY!
 pause
